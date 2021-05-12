@@ -46,7 +46,7 @@ if(path === '/'){
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
     response.write(`
       <link rel="stylesheet" href="./style.css">
-      <script src="yyy.js"> </script>
+      <script src="./yyy.js"> </script>
       <h1>你好</h1>
     `)
     response.end()
